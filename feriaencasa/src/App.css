@@ -14,8 +14,45 @@
   color: white;
 }
 
+.SearchAppBar {
+  margin-bottom: 3.5em;
+}
+
 .App-intro {
   font-size: large;
+}
+
+.hangFromMenu {
+  top: 100%;
+  left: 0;
+  position: absolute;
+  text-align: left;
+}
+
+.hangFromMenu.right {
+  text-align: right;
+  right: 0;
+  left: auto;
+}
+
+.hangFromMenu.right .hangIcon {
+  display: inline-block;
+  width: 3em;
+  height: 3em;
+  background-size: 100%;
+  margin: .3em 0 0 .5em;
+}
+
+.hangFromMenu.right .hangIcon.carrito {
+  background-image: url(../public/carrito.png);
+}
+
+.hangFromMenu.right .hangIcon.settings {
+  background-image: url(../public/settings.png);
+}
+
+.hangFromMenu.right .hangIcon.pedido {
+  background-image: url(../public/pedido.png);
 }
 
 
